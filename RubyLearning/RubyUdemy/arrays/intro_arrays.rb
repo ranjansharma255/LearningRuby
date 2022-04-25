@@ -9,7 +9,15 @@
 # puts
 
 
-toys = ["Teddy bear", "Super Soaker", "board game"]
+# toys = ["Teddy bear", "Super Soaker", "board game"]
 
-things = [4, true, "Hello", 10.99]
-p things
+# things = [4, true, "Hello", 10.99]
+# p things
+
+
+students = [["Boris", 25, true], 
+            ["Sally", 23, true],
+            ["Ingrid", 31, false]
+]
+
+print students
