@@ -9,7 +9,8 @@
 # puts
 
 
-# toys = ["Teddy bear", "Super Soaker", "board game"]
+toys = ["Teddy bear", "Super Soaker", "board game"]
+p toys.[](3)
 
 # things = [4, true, "Hello", 10.99]
 # p things
