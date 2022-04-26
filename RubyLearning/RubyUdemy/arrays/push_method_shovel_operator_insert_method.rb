@@ -22,3 +22,15 @@ p locations
 
 locations.insert(1, 'saloon', 'cafe', 'hello')
 p locations
+
+# we can use the pop method - which remove the one element from the end of the array
+# also it returns the removed element
+
+p locations.pop # output is 'bar'
+
+
+last_item = locations.pop
+p last_item
+
+two_items = locations.pop(2)
+p two_items
