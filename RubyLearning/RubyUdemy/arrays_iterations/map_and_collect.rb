@@ -24,6 +24,10 @@ p result # [nil, nil, nil] because puts returns the nil and it gets
 #mapped to the new created array
 
 
+
+# map method iterates over every single element and then return a new array with some kind on consistent 
+# operation applied to each element
+
 # exercise
 
 def cubes(array)
