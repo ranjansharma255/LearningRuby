@@ -9,5 +9,3 @@ puts my_password
 my_password = BCrypt::Password.new("$2a$12$dvxtgoZdXqBjnui5zeFnieljYagn78nMZNL4tNZZeEJ6HXitwDj/u")
 puts my_password == "my password"
 
-require_relative 'toolkit'
-

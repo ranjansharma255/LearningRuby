@@ -46,3 +46,9 @@ module NameOfTheModule
     $LOAD_PATH << "."
     require 'filename'
     ```
+
+## While using the Module Methods
+### Points to keep in mind
+* use Module Name. to call the module methods
+* Otherwise use self. to call methods of the module
+* Similary in the Module also define the methods with self.method_name or Module_Name.method_name
