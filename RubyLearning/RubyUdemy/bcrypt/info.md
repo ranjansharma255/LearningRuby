@@ -52,3 +52,13 @@ module NameOfTheModule
 * use Module Name. to call the module methods
 * Otherwise use self. to call methods of the module
 * Similary in the Module also define the methods with self.method_name or Module_Name.method_name
+
+## Module Mixins
+* In any class if we want to include the functionality of the Module
+* then inside the class do below steps
+```ruby
+class ClassName
+  include Crud
+end
+```
+* This will form a mixin. Using which module methods can be called with ClassName objects and extend its functionality
